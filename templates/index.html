@@ -1,0 +1,18 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Little Lemon</title>
+  <link rel="stylesheet" href="{% static 'css/site.css' %}">
+</head>
+<body>
+  <header><a class="brand" href="/">Little Lemon</a><nav><a href="#about">About</a><a href="/api/menu/">Menu API</a><a href="/api/bookings/">Bookings API</a></nav></header>
+  <main>
+    <section class="hero"><p class="eyebrow">Chicago · Mediterranean kitchen</p><h1>Little Lemon</h1><p>Fresh Mediterranean flavors, made for sharing.</p><a class="button" href="/api/menu/">Explore the menu</a></section>
+    <section id="about" class="about"><h2>A neighborhood favorite</h2><p>Seasonal ingredients, generous hospitality, and a little sunshine in every plate.</p></section>
+  </main>
+  <footer>Little Lemon · Chicago</footer>
+</body>
+</html>
